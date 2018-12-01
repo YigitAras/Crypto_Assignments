@@ -69,7 +69,7 @@ def Question2():
           0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1]
     ses = BM(ex)
     print("Shortest LFSR using BM function is:(ones representing the active ones)")
-    print("Length of:{}".format(len(ses)))
+    print("Length of:{}".format(ses[0]))
     print(ses[1])
     print("1+ x^4 + x^6 + x^8 + x^11")
     print(
